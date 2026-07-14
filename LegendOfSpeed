@@ -1,0 +1,12 @@
+-- FlagmanNewEra1: LegendOfSpeed
+-- Разработано FlagmanOwner23
+-- Версия 1.0
+
+print("[FlagmanNewEra1] ✅ Скрипт для LegendOfSpeed загружен")
+
+-- ЗДЕСЬ БУДЕТ КОД ДЛЯ LEGEND OF SPEED
+-- Пример:
+-- local player = game.Players.LocalPlayer
+-- local character = player.Character or player.CharacterAdded:Wait()
+-- local humanoid = character:WaitForChild("Humanoid")
+-- humanoid.WalkSpeed = 100
