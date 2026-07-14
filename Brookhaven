@@ -4,4 +4,10 @@
 
 print("[FlagmanNewEra1] ✅ Скрипт для Brookhaven загружен")
 
--- Здесь будет код для Brookhaven
+-- ЗДЕСЬ БУДЕТ КОД ДЛЯ BROOKHAVEN
+-- Пример:
+-- local player = game.Players.LocalPlayer
+-- local character = player.Character or player.CharacterAdded:Wait()
+-- local humanoid = character:WaitForChild("Humanoid")
+-- humanoid.WalkSpeed = 50
+-- humanoid.JumpPower = 100
