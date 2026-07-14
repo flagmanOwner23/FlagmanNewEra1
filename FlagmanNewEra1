@@ -1,0 +1,35 @@
+FlagmanNewEra1/
+├── Loader
+├── Brookhaven
+├── BladeBall
+├── LegendOfSpeed
+├── PixelBlade
+├── Flick
+├── GrowAGarden2
+├── MurderMystery2
+├── README.md
+└── LICENSE-- FlagmanNewEra1 Loader
+-- Разработано FlagmanOwner23
+-- Версия 1.0
+
+local HttpGet = game.HttpGet
+local GameId: number = game.GameId
+
+local Games: {[number]: string} = {
+    [1686885941]  = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/Brookhaven",
+    [4777817887]  = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/BladeBall",
+    [1119466531]  = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/LegendOfSpeed",
+    [6161049307]  = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/PixelBlade",
+    [8795154789]  = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/Flick",
+    [10200395747] = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/GrowAGarden2",
+    [66654135]    = "https://raw.githubusercontent.com/FlagmanOwner23/FlagmanNewEra1/main/MurderMystery2"
+}
+
+local URL: string? = Games[GameId]
+
+if URL then
+    loadstring(HttpGet(game, URL))()
+    print("[FlagmanNewEra1] ✅ Загружен скрипт для игры ID:", GameId)
+else
+    print("[FlagmanNewEra1] ❌ Игра не поддерживается. ID:", GameId)
+end
