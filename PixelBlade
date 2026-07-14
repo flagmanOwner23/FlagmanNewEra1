@@ -1,1 +1,12 @@
+-- FlagmanNewEra1: PixelBlade
+-- Разработано FlagmanOwner23
+-- Версия 1.0
 
+print("[FlagmanNewEra1] ✅ Скрипт для PixelBlade загружен")
+
+-- ЗДЕСЬ БУДЕТ КОД ДЛЯ PIXEL BLADE
+-- Пример:
+-- local player = game.Players.LocalPlayer
+-- local character = player.Character or player.CharacterAdded:Wait()
+-- local humanoid = character:WaitForChild("Humanoid")
+-- humanoid.WalkSpeed = 45
