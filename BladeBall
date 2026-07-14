@@ -1,0 +1,12 @@
+-- FlagmanNewEra1: BladeBall
+-- Разработано FlagmanOwner23
+-- Версия 1.0
+
+print("[FlagmanNewEra1] ✅ Скрипт для BladeBall загружен")
+
+-- ЗДЕСЬ БУДЕТ КОД ДЛЯ BLADE BALL
+-- Пример:
+-- local player = game.Players.LocalPlayer
+-- local character = player.Character or player.CharacterAdded:Wait()
+-- local humanoid = character:WaitForChild("Humanoid")
+-- humanoid.WalkSpeed = 60
