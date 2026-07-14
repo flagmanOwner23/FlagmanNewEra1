@@ -1,0 +1,12 @@
+-- FlagmanNewEra1: Flick
+-- Разработано FlagmanOwner23
+-- Версия 1.0
+
+print("[FlagmanNewEra1] ✅ Скрипт для Flick загружен")
+
+-- ЗДЕСЬ БУДЕТ КОД ДЛЯ FLICK
+-- Пример:
+-- local player = game.Players.LocalPlayer
+-- local character = player.Character or player.CharacterAdded:Wait()
+-- local humanoid = character:WaitForChild("Humanoid")
+-- humanoid.WalkSpeed = 55
